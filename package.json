@@ -1,0 +1,44 @@
+{
+  "name": "webpack-test-1",
+  "version": "1.0.2",
+  "description": "webpack-test",
+  "main": "webpack.build.config.js",
+  "dependencies": {
+    "webpack": "^2.3.1",
+    "webpack-dev-server": "^2.4.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^6.7.7",
+    "babel-core": "^6.9.1",
+    "babel-loader": "^6.0.0",
+    "babel-plugin-transform-runtime": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-2": "^6.0.0",
+    "babel-runtime": "^6.0.0",
+    "browser-sync": "^2.18.8",
+    "browser-sync-webpack-plugin": "^1.1.4",
+    "css-loader": "^0.25.0",
+    "eventsource-polyfill": "^0.9.6",
+    "express": "^4.15.2",
+    "extract-text-webpack-plugin": "^2.1.0",
+    "file-loader": "^0.10.1",
+    "friendly-errors-webpack-plugin": "^1.6.1",
+    "html-webpack-plugin": "^2.28.0",
+    "http-proxy-middleware": "^0.17.4",
+    "image-webpack-loader": "^3.3.0",
+    "opn": "^4.0.2",
+    "postcss-loader": "^1.3.3",
+    "rimraf": "^2.6.1",
+    "style-loader": "^0.16.0",
+    "url-loader": "^0.5.8",
+    "webpack": "^2.3.1",
+    "webpack-dev-server": "^2.4.2",
+    "webpack-hot-middleware": "^2.17.1"
+  },
+  "scripts": {
+    "dev": "node server.js",
+    "build": "rimraf dist && webpack --progress --config webpack.build.config.js"
+  },
+  "author": "weberLong <weihua_long@qingsongchou.com>",
+  "license": "ISC"
+}
